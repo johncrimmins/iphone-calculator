@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+    function sum(array) {
+	// computes the sum of an array, empty array, or array of length 1
+        let result = 0;
+        for (i = 0; i < array.length; i++) {
+            result += array[i];
+        }
+        return result;
+    }
+
+
+    console.log(sum([1]));
+
+    function multiply (array) {
+	    let result = 1;
+        for (i = 0; i < array.length; i++) {
+            result = result * array[i];
+            // console.log(i);
+            // console.log(result);
+            // console.log(array[i]);
+        }
+        return result;
+    }
+
+    console.log(multiply([3,3,3]));
+
+    </script>
+
+</body>
+</html>
